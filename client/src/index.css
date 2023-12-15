@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.form {
+  margin-top: 11px;
+  border-radius: 6px;
+  padding: 40px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.login_form input:focus {
+  border: none;
+  outline: none;
+}
+.login_form input::placeholder {
+  font-size: 17px;
+  font-weight: 400;
+  color: gray;
+}
+
+.login_form input {
+  font-size: 17px;
+  font-weight: 500;
+  color: #344e41;
+}
+
+.login_btn {
+  padding: 7px;
+  width: 250px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: #344e41;
+  color: #fefae0;
+  font-size: 17px;
+  transition: all 0.3s ease-in-out;
+}
+.login_btn:hover {
+  background-color: #16422c;
+}
+
+.sign_in_with_google {
+  border: none;
+  width: 250px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border-radius: 6px;
+  background-color: #344e41;
+  cursor: pointer;
+  color: #fefae0;
+  padding: 4px 0;
+}
